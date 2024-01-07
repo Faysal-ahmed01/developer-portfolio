@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans";
+  text-decoration: none;
+}
+/* Common Class Section */
+.btn-primary {
+  border-radius: 5px;
+  background: #fd6e0a;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  padding: 18px 35px;
+}
+.btn-Secondary {
+  border-radius: 5px;
+  background: #fff;
+  color: #fd6e0a;
+  font-size: 20px;
+  font-weight: 700;
+  border: 2px solid #fd6e0a;
+  padding: 18px 35px;
+}
+.common-head {
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+}
+.text {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+/* Header section Style */
+header {
+  padding: 50px 34px 0px 226px;
+  background-color: #fff8f3;
+  background-image: url("../assate/images/header_bg.png"),
+    url("../assate/images/developer.png");
+  background-repeat: no-repeat;
+  background-position: right bottom, 20px center;
+}
+
+header > nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header > nav > ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-right: 230px;
+}
+header > nav > ul > li {
+  margin-left: 50px;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+}
+header > nav > ul > li > a {
+  text-decoration: none;
+  color: #474747;
+}
+header > nav h2 {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
+}
+header > nav h2 > span {
+  color: #fd6e0a;
+}
+
+header section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+header section .containar h3 {
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+}
+header section .containar h1 {
+  color: #181818;
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+header section .containar p {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 70%;
+}
+
+/* About me section  */
+.about-me {
+  margin: 130px auto;
+  border-radius: 10px;
+  background: #fff8f3;
+  text-align: center;
+  width: 70%;
+}
+.about-me > h2 {
+  padding-top: 130px;
+}
+.about-me .about-me-text {
+  width: 70%;
+  margin: 30px auto;
+}
+.about-containar {
+  display: flex;
+  margin-top: top;
+  align-items: center;
+  justify-content: center;
+}
+.about-containar div {
+  margin: 30px 50px 130px;
+}
+.about-containar h4 {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.about-containar p {
+  color: #474747;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+/* What I do Section */
+
+.what-i-do {
+  margin: 130px auto;
+  text-align: center;
+}
+.what-i-do-text {
+  width: 50%;
+  margin: 30px auto;
+}
+.skill-containar {
+  display: flex;
+  margin: 30px auto;
+  justify-content: space-between;
+  width: 70%;
+  text-align: left;
+  margin-top: 50px;
+}
+.skill {
+  height: 377px;
+  padding: 30px;
+  width: 17%;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill h3 {
+  color: #181818;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* My resume Section */
+
+.my-resume {
+  margin-top: 130px;
+}
+.my-resume > h2 {
+  text-align: center;
+}
+.resume-container {
+  display: flex;
+  width: 70%;
+  margin: 113px auto;
+}
+.education-container > h1,
+.experience-container > h1 {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+}
+.resume-box {
+  width: 95%;
+}
+
+.resume-box-title {
+  margin-top: 30px;
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.resume-box-subtitle {
+  color: #757575;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.resume-box-text {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  width: 80%;
+}
+hr {
+  background: #d1d1d1;
+  color: #d1d1d1;
+}
+
+
+/* Footer Section */
+
+footer {
+  margin-top: 113px;
+  background: #fff8f3;
+  padding-top: 130px;
+  padding-bottom: 130px;
+  display: flex;
+}
+footer .containar1{
+  margin-left: 280px;
+
+}
+footer .containar1 p {
+  color: #474747;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 80%;
+}
+
+footer .containar2 input , textarea{
+  border-radius: 5px;
+  background: #fff;
+  padding: 10px 20px;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  width: 461px;
+height: 29px;
+border: 0;
+margin-top: 28px;
+margin-right: 230px;
+}
+footer .containar2 button{
+  margin-top: 28px;
+}
